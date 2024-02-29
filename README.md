@@ -1,12 +1,13 @@
 
    # **Práctica exploración y visualización de datos**
 
-Exploración y visualización de Dataset de E-Commerce
+### Exploración y visualización de Dataset de E-Commerce - Maximo Lloris Salvi
 
 
 ## Origen de los datos
 
 Desarrollo la práctica y el análisis de los datos sobre un Dataset que recoge las transacciones de un **E-Commerce**.
+
 **Link:** [Dataset E-Commerce](https://www.kaggle.com/datasets/carrie1/ecommerce-data/data/)
 
 
@@ -130,3 +131,74 @@ Total amount % = [Total Amount] / CALCULATE([Total Amount], ALL('Invoice data'))
 
 Unit Price Average = AVERAGE('Invoice data'[UnitPrice])
 ```
+
+## Dashboards
+### What is the time slot with the most income, AM or PM...?
+
+![Alt text](imagenes_README/1.PNG)
+
+En el primer Dashboard doy respuesta a la pregunta de, “¿En franja horaria se factura más?
+Los gráficos planteados en este dashboard responden a dicha pregunta de distintas maneras,
+permitiendo la segmentación y el análisis de los datos en mayor profundidad dependiendo de
+los parámetros de consulta que queramos trasladarle.
+
+El panel incluye una gráfica que nos traslada como valor mínimo la media de facturación de
+todos los países y como valor máximo, la facturación total del país que más ha facturado.
+
+
+
+### Who buys more, women and men...?
+
+![Alt text](imagenes_README/2.PNG)
+
+En el segundo dashboard resolvemos la pregunta que encabeza el panel pudiendo ver las
+diferencias entre las compras realizadas por mujeres respecto de las compras realizadas por
+los hombres.
+
+Podemos analizar los productos que consumen con mayor frecuencia cualquier de los dos
+géneros. También incluye un mapa de forma que podamos trasladar la consulta sobre los
+hábitos de consumo a la geolocalización de los sujetos de estudio pudiendo de esta forma
+concretar por países nuestra consulta.
+
+
+### Which group bills the most, the first 4 or the rest...?
+
+![Alt text](imagenes_README/3.PNG)
+
+Por último, en este dashboard hemos agrupado los países de forma que tenemos en el primer
+grupo aquellos 4 países los cuales son los únicos que han facturado por si solos mas del 10% de
+la facturación total de todos los países juntos.
+
+
+### Tablas de apoyo previo
+
+Para poder llevar a cabo este dashboard, me apoye previamente en las medidas obtenidas de
+la tabla DAX medidas. Estas medidas, pudieron permitirme observar datos relevantes los
+cuales considero importante tener en cuenta.
+
+Un dato que me parece remarcable es que el país con mayor facturación es Netherlands, el
+cual alcanza, el puesto mas alto en el rankin, a pesar de tener menos muchas menos facturas
+que los otros 3 países que forman el grupo “Countries Hight amount %”.
+
+Netherlands, factura el 18,25% del total da la facturación y lo hace únicamente con un total de
+101 facturas y 9 clientes. Comparando estos datos con los datos, por ejemplo de Germany, nos
+damos cuenta que este ultimo se queda $60.000 por debajo de la facturación de Netherlands,
+a pesar de tener mas de 6 veces más facturas emitidas y mas de 10 veces más clientes.
+
+![Alt text](imagenes_README/4.PNG)
+
+He considerado muy vital la información aportada por las tablas de la pestaña “Tablas de
+estudio” pues con la ayuda de la visualización directa de los datos de facturación y valores
+porcentuales, así como la asignación de formatos condicionales a las distintas columnas, he
+podido comprender la relevación de los datos.
+
+Sin estas tablas, hubiese sido muy complicado darme cuenta de esta relación de los distintos
+países respecto a la facturación total.
+
+Otro dato a señalar, es que uno de los 9 clientes de Netherlands, superar por si solo, la
+facturación total del resto de países, manejando un volumen total de ventas del 17,92%.
+
+![Alt text](imagenes_README/5.PNG)
+
+La información que han aportado las tablas de estudio ha sido crucial para poder desarrollar
+los dashboars y poder obtener información de ellos.
