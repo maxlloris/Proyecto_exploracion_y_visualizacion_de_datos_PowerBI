@@ -1,5 +1,5 @@
 
-   # **Práctica exploración y visualización de datos**
+   # **Proyecto exploración y visualización de datos**
 
 ### Exploración y visualización de Dataset de E-Commerce - Maximo Lloris Salvi
 
